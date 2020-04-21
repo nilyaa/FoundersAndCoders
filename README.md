@@ -1,2 +1,2 @@
 # FoundersAndCoders
- Founders and coders personal webiste 
+ Founders and Coders personal profile webiste 
