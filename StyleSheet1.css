@@ -14,6 +14,8 @@ body {
     color: #222;
 }
 
+/*  NAVIGATION  */
+
 .main-nav {
     width: 100%;
     background: #000000;
@@ -41,4 +43,43 @@ body {
 
 .nav a:hover {
     color: white;
+}
+
+
+/*  HEADER  */
+
+.profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px groove white;
+    transition: all .5s;
+}
+
+.profile-image:hover {
+    transform: scale(1.2);
+}
+
+header {
+    text-align: center;
+    background: url('images/lastsupper12.jpg') no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+    line-height: 1.5;
+}
+
+.tag {
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+}
+
+.intro {
+    background-color: #222;
+    color: yellow;
 }
